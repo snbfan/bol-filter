@@ -1,6 +1,8 @@
 import React, { ReactElement, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
+import { SearchIcon } from './SearchIcon';
+
 import { filtersSlice } from '../redux';
 import { RootState } from '../redux/types';
 
@@ -25,12 +27,7 @@ export function CategoriesFilter(): ReactElement {
         aria-label="Zoek op categories"
       />
       <span className="absolute right-3 top-3 text-gray-500" aria-hidden="true">
-        <svg width="18" height="18" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M13.8 12.2l-3.9-4c.6-.8 1.1-2 1.1-3.1 0-2.8-2.3-5-5-5-2.8 0-5 2.3-5 5 0 2.8 2.2 5 5 5 .8 0 1.7-.2 2.3-.5l3.9 4.3c.2.2.6.2.8 0l.8-.8c.3-.3.3-.7 0-.9zM6 8.1c-1.7 0-3-1.4-3-3 0-1.7 1.4-3 3-3s3 1.4 3 3-1.4 3-3 3z"
-            fill="currentColor"
-          />
-        </svg>
+        <SearchIcon />
       </span>
     </div>
   );
