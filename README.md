@@ -22,7 +22,7 @@
 - Jest unit test coverage (partial) + GithubActions CI/CD pipeline. 
 
 ### Also ...
-- Selected categories are saved/persisted to localStorage on "Toepassen" button click. 
-- I could have implemented saving to localStorage on category selection (checkbox check), but then what would be the purpose of "Toepassen" button?
+- Selected categories are saved/persisted to `localStorage` on "Toepassen" button click. 
+- I could have implemented saving to `localStorage` on category selection (checkbox check), but then what would be the purpose of "Toepassen" button?
 - Categories in JSON file contain encoded HTML entities like `&amp;` (not sure if bug or feature). 
 I've used `DOMParser.parseFromString` method to decode them.
