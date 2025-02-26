@@ -1,7 +1,8 @@
 # To reviewers
 
 ## How to run the app
-- `cd` into the project directory
+- Clone the repository
+- `cd` into the cloned project directory
 - Run `npm start` in console (this will install dependencies and start local server)
 - Visit `http://localhost:5173/` in your browser
 
