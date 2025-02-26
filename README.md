@@ -18,6 +18,7 @@
 - Is WCAG-compliant and accessible.
 - Relies on React Suspense to handle loading state.
 - Uses React Error Boundary to catch and handle errors gracefully.
+- Jest unit test coverage (partial) + GithubActions CI/CD pipeline. 
 
 ### Also ...
 - Selected categories are saved/persisted to localStorage on "Toepassen" button click. 
